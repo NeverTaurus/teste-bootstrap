@@ -79,8 +79,15 @@ color: #461F00;
 
 
 @media(max-width: 767px){
-    .carousel-item img {
+    .carousel-item img
+    {
         height: 280px;
     }
+    .tab-content img{
+        width: 100%;
+    }
+
+
+
 }
 
