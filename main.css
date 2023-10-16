@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.navbar h1{
+    color: white;
+}
+
+#deuses h3{
+    color: #461F00;
+}
+.navbar{
+    background-color: #461F00;
+}
+#cabeca .nav .nav-link.active{
+    background-color: white;
+    color: #461F00;
+}
+#cabeca .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-paises .nav-link.active:hover{
+    color: white;
+    margin-top: 2%;
+}
+
+.tab-content img{
+    width: 494px;
+    height: 300px;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: 'Skranji', cursive;
+    color: #002645;
+}
+
+#sobre,
+#cardapio{
+    background-color: #ffeae6;
+
+}
+
+.text-colored{
+    color: #461F00;
+}
+
+.nav-paises .nav-link.active, #contato button{
+    background-color: #461F00;
+    color: white;
+}
+
+.nav-paises .nav-link:hover{
+color: #461F00;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#my-tabs.nav-tabs > li > a {
+    padding: 8px 16px;
+    margin:0;
+    margin-right: -4px;
+}
+
+
+@media(max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
