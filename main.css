@@ -43,10 +43,8 @@ body{
     color: #002645;
 }
 
-#sobre,
-#cardapio{
-    background-color: #ffeae6;
-
+body{
+    background-color: #fcf8f7;
 }
 
 .text-colored{
